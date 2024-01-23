@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<!-- Body -->
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header">
+        <h1>Highscores</h1>
+        <p class="score">Score:</p>
+    </div>
+    <div class="main">
+        <p class="time"></p>
+    </div>
+</header>
+
+<!-- Quiz/Answer section -->
+   <section class="quiz-container">
+        <h2 class="quiz-title"></h2>
+            <ol class="quiz">
+             <li id="answer1" data-option="A"></li>
+             <li id="answer2" data-option="B"></li>
+             <li id="answer3" data-option="C"></li>
+             <li id="answer4" data-option="D"></li>
+            </ol>
+            <div class="answer"></div>
+
+            <div class="start-button">
+                <button id="button">Start</button>
+            </div>
+    </section>
+
+<!-- Score form -->
+    <form id="scoreform" class="hidden">
+        <h3>Quiz Complete!</h3>
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" name="score" placeholder="Name/Score...">
+        <input type="submit">
+    </form>
+
+<!-- JS sources -->
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
