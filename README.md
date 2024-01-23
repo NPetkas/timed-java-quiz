@@ -8,7 +8,7 @@ basic format for multiple-choice layouts, setting css style attributes in JS, se
 logging score counts, and how to store/retrieve information via local storage. 
 
 
-![image](./assets/images/screenshot.png)
+![image](./assets/Images/screenshot.png)
 
 ## Link to deploy app
 
