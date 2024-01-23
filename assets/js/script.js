@@ -129,4 +129,3 @@ function checkAnswer(e) {
       displayQuestion();
     }
 }
-
