@@ -7,7 +7,6 @@ var quizTitle = document.querySelector(".quiz-title")
 var answer = document.querySelector(".answer")
 var button = document.querySelector("#button")
 var scoreForm = document.getElementById("scoreform")
-var scoreTitle = document.querySelector(".score-title")
 var userName = document.getElementById("name")
 var answerContainer = document.querySelector(".quiz");
 var quizContainer = document.querySelector(".quiz-container")
