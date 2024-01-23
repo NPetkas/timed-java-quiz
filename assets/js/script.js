@@ -69,7 +69,6 @@ function countdown() {
 
 // 'Game Over" message function that toggles visbility between of quiz container and score form //
 function displayMessage() {
-  console.log("displayMessage")
 			mainEl.textContent = message;
       quizContainer.classList.add("hidden");
       scoreForm.classList.remove("hidden");
